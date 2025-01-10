@@ -25,14 +25,14 @@
 #X obj 160 189 phasor~ 200;
 #X obj 194 234 phasor~ 200;
 #X obj 134 90 hsl 136 16 1 10000 1 0 empty empty empty -2 -8 0 10 #fcfcfc #000000 #000000 0 1;
-#X obj 53 340 osci_xy;
 #X text 51 367 replace with osci_xy_pmpd for more realistic behaviour, f 28;
+#X obj 53 340 osci_xy;
 #X connect 0 0 1 0;
 #X connect 0 1 1 1;
 #X connect 1 0 4 0;
 #X connect 1 0 18 0;
 #X connect 2 0 3 0;
-#X connect 3 0 26 0;
+#X connect 3 0 27 0;
 #X connect 5 0 24 1;
 #X connect 6 0 12 0;
 #X connect 7 0 8 0;
@@ -46,8 +46,8 @@
 #X connect 15 0 16 0;
 #X connect 15 0 17 1;
 #X connect 16 0 18 1;
-#X connect 17 0 26 0;
-#X connect 18 0 26 0;
+#X connect 17 0 27 0;
+#X connect 18 0 27 0;
 #X connect 19 0 20 0;
 #X connect 20 0 11 0;
 #X connect 20 0 5 0;
