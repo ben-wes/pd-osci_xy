@@ -1,4 +1,4 @@
-#N canvas 799 128 1186 751 10;
+#N canvas 734 128 1186 751 10;
 #X declare -lib Gem;
 #X declare -path pmpd;
 #X obj 35 271 f \$0;
@@ -147,7 +147,7 @@
 #X obj 97 716 square 4;
 #X floatatom 639 564 15 0 0 0 - - - 0;
 #X obj 97 669 alpha 1;
-#N canvas 70 136 503 739 pass_blur 0;
+#N canvas 38 239 512 532 pass_blur 0;
 #X obj 75 88 inlet;
 #X obj 75 453 outlet;
 #X obj 75 149 single_blur 76 0 64;
@@ -164,7 +164,8 @@
 #X obj 75 203 single_blur 79 32 0;
 #X obj 75 185 single_blur 78 0 32;
 #X obj 75 167 single_blur 77 64 0;
-#X obj 197 98 inlet;
+#X obj 180 88 inlet;
+#X text 243 82 mechanism and patches copied from Gem example 14.blur.pd, f 33;
 #X connect 0 0 2 0;
 #X connect 2 0 15 0;
 #X connect 3 0 4 0;
